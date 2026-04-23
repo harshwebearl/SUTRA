@@ -46,6 +46,6 @@ body::before {
 .reveal.visible,.reveal-left.visible,.reveal-right.visible { opacity:1; transform:none; }
 
 @media (prefers-reduced-motion:reduce) {
-  *,*::before,*::after { animation-duration:.01ms !important; transition-duration:.01ms !important; }
+  *,*::before,*::after { transition-duration:.01ms !important; }
 }
 `;
